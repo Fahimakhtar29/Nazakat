@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --royal-black: #0B0B0B;
+    --luxury-gold: #D4AF37;
+    --gold-bright: #F5D77F;
+    --gold-dark: #A8821F;
+    --ivory: #F8F6F2;
+    --deep-emerald: #0D3B2E;
+    --warm-beige: #E8DCC5;
+    --charcoal-card: #141414;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0B0B0B;
+    color: #F8F6F2;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-cormorant {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel', Georgia, serif;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #D4AF37 0%, #8C6D31 100%);
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F5D77F;
+}
+
+/* Glassmorphism Dark Royal Luxury Styling */
+.glass-royal {
+  background: rgba(18, 18, 18, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 15px rgba(212, 175, 55, 0.05);
+}
+
+.glass-emerald {
+  background: rgba(13, 59, 46, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.glass-luxury-gold {
+  background: rgba(20, 20, 20, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 175, 55, 0.1);
+}
+
+/* Gold Gradient Text */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #F5D77F 0%, #D4AF37 40%, #AA8222 80%, #F5D77F 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-text-shimmer {
+  background: linear-gradient(90deg, #A8821F 0%, #D4AF37 25%, #FFF2C6 50%, #D4AF37 75%, #A8821F 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Luxury Gold Border & Glow */
+.gold-border-glow {
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  transition: all 0.4s ease;
+}
+
+.gold-border-glow:hover {
+  border-color: rgba(212, 175, 55, 0.8);
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.25);
+}
+
+/* Gold Button Hover */
+.btn-gold {
+  background: linear-gradient(135deg, #F5D77F 0%, #D4AF37 50%, #A8821F 100%);
+  color: #0B0B0B;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #FFFFFF 0%, #F5D77F 50%, #D4AF37 100%);
+  box-shadow: 0 6px 30px rgba(212, 175, 55, 0.5);
+  transform: translateY(-2px);
+}
+
+.btn-outline-gold {
+  border: 1px solid rgba(212, 175, 55, 0.6);
+  color: #D4AF37;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: #F5D77F;
+  color: #F8F6F2;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+}
+
+/* Floating animation */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(1.5deg); }
+}
+
+.animate-float-slow {
+  animation: floatSlow 7s ease-in-out infinite;
+}
+
+/* Gold Smoke Effect */
+@keyframes smokeRise {
+  0% { transform: translateY(0) scale(0.9); opacity: 0; }
+  50% { opacity: 0.4; }
+  100% { transform: translateY(-80px) scale(1.3); opacity: 0; }
+}
+
+.animate-gold-smoke {
+  animation: smokeRise 8s infinite ease-out;
+}
+
+/* Radial Glow Backgrounds */
+.bg-gold-radial {
+  background: radial-gradient(circle at 50% 30%, rgba(212, 175, 55, 0.18) 0%, rgba(11, 11, 11, 0) 70%);
+}
+
+.bg-emerald-radial {
+  background: radial-gradient(circle at 50% 50%, rgba(13, 59, 46, 0.4) 0%, rgba(11, 11, 11, 0) 75%);
+}
+
+

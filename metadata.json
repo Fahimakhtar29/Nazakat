@@ -1,0 +1,6 @@
+{
+  "name": "NAZAKAT | An Essence of Nawabi Adab",
+  "description": "Authentic Nawabi Lucknow luxury perfumes and alcohol-free pure ittars handcrafted with Awadhi musk, Mysore Sandalwood, Kashmiri Kesar, and Kannauj Gulab.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
