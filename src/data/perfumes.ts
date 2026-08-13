@@ -17,9 +17,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 12,
     badge: 'Lucknow Royal Flagship',
     images: [
-      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     ],
     notes: {
       top: ['Awadhi Dew Drops', 'Royal Kashmiri Saffron'],
@@ -65,7 +65,7 @@ export const LUXURY_PERFUMES: Product[] = [
   },
   {
     id: 'shahi-mysore-chandan',
-    name: 'Shahi Mysore Chandan',
+    name: 'Nazakat - Nawabi Ameer Al Shan',
     subtitle: '100% Pure Sandalwood Oil Ittar',
     tagline: 'Pure alcohol-free Mysore sandalwood oil. Calm, sweet, and comforting royal scent that lasts all day.',
     priceUSD: 35,
@@ -79,9 +79,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 12,
     badge: '100% Pure Ittar',
     images: [
-      'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1RE9cf83Nl8s5laJK04wwB4XNxpzvbrol',
+      'https://lh3.googleusercontent.com/d/1RE9cf83Nl8s5laJK04wwB4XNxpzvbrol',
+      'https://lh3.googleusercontent.com/d/1RE9cf83Nl8s5laJK04wwB4XNxpzvbrol',
     ],
     notes: {
       top: ['Cardamom Water', 'Sweet Rose Dew'],
@@ -94,7 +94,7 @@ export const LUXURY_PERFUMES: Product[] = [
     occasions: ['Puja & Festivals', 'Daily Wear', 'Weddings', 'Meditation & Relaxation'],
     seasons: ['All Seasons', 'Summer', 'Winter'],
     description:
-      'Shahi Mysore Chandan is made from authentic 40-year-old sandalwood trees grown in Mysore. Distilled using ancient copper deg-bhapka vessels in Kannauj, this 100% pure oil contains zero alcohol, zero chemicals, and zero water. Safe for direct skin application and religious ceremonies.',
+      'Nazakat - Nawabi Ameer Al Shan is made from authentic 40-year-old sandalwood trees grown in Mysore. Distilled using ancient copper deg-bhapka vessels in Kannauj, this 100% pure oil contains zero alcohol, zero chemicals, and zero water. Safe for direct skin application and religious ceremonies.',
     craftsmanshipStory:
       'Crafted by 5th-generation master perfume artisans in Kannauj (The Scent Capital of India). Bottled in traditional hand-carved brass and crystal glass bottles.',
     ingredients: ['100% Pure Santalum Album (Mysore Sandalwood) Natural Essential Oil'],
@@ -127,7 +127,7 @@ export const LUXURY_PERFUMES: Product[] = [
   },
   {
     id: 'kashmiri-kesar-gulab',
-    name: 'Kashmiri Kesar & Gulab',
+    name: 'NAZAKAT- Nawabi Hurain',
     subtitle: 'Saffron & Pink Rose Royal Perfume',
     tagline: 'Real Pampore Kashmiri saffron with fresh Kannauj pink rose. Smells like a royal palace garden.',
     priceUSD: 42,
@@ -141,9 +141,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 50,
     badge: 'Best Seller',
     images: [
-      'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1P1HMwnkBa_8-lIJTGwntNjXXsh_Um3Vk',
+      'https://lh3.googleusercontent.com/d/1P1HMwnkBa_8-lIJTGwntNjXXsh_Um3Vk',
+      'https://lh3.googleusercontent.com/d/1P1HMwnkBa_8-lIJTGwntNjXXsh_Um3Vk',
     ],
     notes: {
       top: ['Kashmiri Red Saffron (Kesar)', 'Wild Honey'],
@@ -179,7 +179,7 @@ export const LUXURY_PERFUMES: Product[] = [
   },
   {
     id: 'assam-shahi-oudh',
-    name: 'Assam Shahi Royal Oudh',
+    name: 'NAZAKAT-Nawabi Mukhallat Al Badar',
     subtitle: '30-Year Aged Assam Agarwood Ittar',
     tagline: 'Precious 30-year aged wild Assam agarwood. Deep, woody, and prestigious scent that lasts up to 36 hours.',
     priceUSD: 75,
@@ -193,9 +193,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 12,
     badge: 'Royal Special',
     images: [
-      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1LPtEhwoiSwFfM-se4YqeKt2uzctznBqY',
+      'https://lh3.googleusercontent.com/d/1LPtEhwoiSwFfM-se4YqeKt2uzctznBqY',
+      'https://lh3.googleusercontent.com/d/1LPtEhwoiSwFfM-se4YqeKt2uzctznBqY',
     ],
     notes: {
       top: ['Spicy Anise', 'Smoky Leather'],
@@ -224,7 +224,7 @@ export const LUXURY_PERFUMES: Product[] = [
         rating: 5,
         date: '2026-07-22',
         title: 'The King of Indian Ouds',
-        comment: 'I have collected oud from Arabia and Assam for 15 years. This Assam Shahi Oudh is 100% pure and superior to anything else in the market.',
+        comment: 'I have collected oud from Arabia and Assam for 15 years. This NAZAKAT-Nawabi Mukhallat Al Badar is 100% pure and superior to anything else in the market.',
         verifiedPurchase: true,
       },
     ],
@@ -245,9 +245,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 50,
     badge: 'Handmade in Kannauj',
     images: [
-      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     ],
     notes: {
       top: ['Madurai Mogra Blossoms', 'Fresh Green Tea'],
@@ -297,9 +297,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 12,
     badge: '100% Pure Ittar',
     images: [
-      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     ],
     notes: {
       top: ['Rain-Kissed Fresh Earth', 'Green Lime zest'],
@@ -349,9 +349,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 50,
     badge: 'Best Seller',
     images: [
-      'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     ],
     notes: {
       top: ['Green Kerala Elaichi (Cardamom)', 'Clove Buds'],
@@ -401,9 +401,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 12,
     badge: 'New Arrival',
     images: [
-      'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     ],
     notes: {
       top: ['Clean Bergamot', 'White Lily Petals'],
@@ -453,9 +453,9 @@ export const LUXURY_PERFUMES: Product[] = [
     selectedVolumeMl: 12,
     badge: 'Handmade in Kannauj',
     images: [
-      'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85',
-      'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=85',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
+      'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     ],
     notes: {
       top: ['Fresh Pink Rose Petals', 'Morning Dew Drops'],
@@ -492,9 +492,9 @@ export const LUXURY_PERFUMES: Product[] = [
 ];
 
 export const SAMPLE_VIALS_LIST = [
-  { id: 'v1', name: 'Shahi Mysore Chandan (2ml)', notes: 'Sandalwood & Milk' },
+  { id: 'v1', name: 'Nazakat - Nawabi Ameer Al Shan (2ml)', notes: 'Sandalwood & Milk' },
   { id: 'v2', name: 'Ruh Gulab-e-Kannauj (2ml)', notes: 'Pure Pink Rose' },
   { id: 'v3', name: 'Zafran-e-Kashmir (2ml)', notes: 'Saffron & Honey' },
-  { id: 'v4', name: 'Shahi Assam Oud (2ml)', notes: 'Assam Oud & Leather' },
+  { id: 'v4', name: 'NAZAKAT-Nawabi Mukhallat Al Badar (2ml)', notes: 'Assam Oud & Leather' },
 ];
 

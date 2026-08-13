@@ -298,8 +298,8 @@ export const Header: React.FC<HeaderProps> = ({
                     <div className="bg-[#FAF5EE] p-4 rounded-lg border border-[#D4AF37]/30 text-center flex flex-col justify-between">
                       <div className="relative h-28 rounded overflow-hidden mb-2">
                         <img
-                          src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=400&q=80"
-                          alt="Shahi Mysore Chandan"
+                          src="https://lh3.googleusercontent.com/d/1RE9cf83Nl8s5laJK04wwB4XNxpzvbrol"
+                          alt="Nazakat - Nawabi Ameer Al Shan"
                           className="w-full h-full object-cover"
                           referrerPolicy="no-referrer"
                         />
@@ -308,7 +308,7 @@ export const Header: React.FC<HeaderProps> = ({
                           100% Pure Ittar
                         </span>
                       </div>
-                      <h5 className="font-serif text-sm text-[#B8860B] font-bold">Shahi Mysore Chandan</h5>
+                      <h5 className="font-serif text-sm text-[#B8860B] font-bold">Nazakat - Nawabi Ameer Al Shan</h5>
                       <p className="text-[11px] text-stone-600 mt-1 line-clamp-2">
                         Pure Sandalwood Oil from Mysore forest farms. Lasts 24 hours.
                       </p>

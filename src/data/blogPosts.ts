@@ -10,7 +10,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '3 min read',
     date: 'July 24, 2026',
     author: 'Master Artisan Pandit Rameshwar',
-    image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85',
+    image: 'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     excerpt: 'Ittar (Attar) is 100% pure botanical oil extracted from flowers, sandalwood, and roots using traditional copper stills (Deg-Bhapka) in Kannauj, UP. Zero alcohol, 100% skin safe.',
     contentHtml: `
       <p class="lead text-lg text-amber-200/90 leading-relaxed mb-6">
@@ -34,7 +34,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '2 min read',
     date: 'July 15, 2026',
     author: 'Shahi Sugandh Experts',
-    image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85',
+    image: 'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     excerpt: 'Beat heat and sweat with these simple tricks! Apply oil on pulse points, wear natural fabrics, and mix sandalwood with cooling khus.',
     contentHtml: `
       <p class="lead text-lg text-amber-200/90 leading-relaxed mb-6">
@@ -60,7 +60,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '3 min read',
     date: 'June 30, 2026',
     author: 'Dr. S. K. Awasthi',
-    image: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85',
+    image: 'https://lh3.googleusercontent.com/d/1m8VCC4Eys8GP0GDTXSsJTgyh-jRm1Jqx',
     excerpt: 'Confused between buying an Ittar bottle or a Perfume Spray? Read our easy comparison table on lasting time, usage, and occasions.',
     contentHtml: `
       <p class="lead text-lg text-amber-200/90 leading-relaxed mb-6">
