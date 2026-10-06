@@ -349,11 +349,14 @@ export const Header: React.FC<HeaderProps> = ({
                 <img
                   src={BRAND_LOGO_URL}
                   onError={(e) => {
-                    e.currentTarget.src = '/brand_logo.png';
-                  }}
-                  alt="NAZAKAT Nawabi Perfumes Emblem"
-                  className="h-9 w-14 sm:h-12 sm:w-20 lg:h-14 lg:w-24 object-cover rounded-xl border-2 border-[#B8860B] shadow-[0_0_20px_rgba(184,134,11,0.4)] bg-white p-0.5 transform group-hover:scale-105 transition-all duration-300 ring-2 ring-[#F5D77F]"
-                  referrerPolicy="no-referrer"
+                    {
+e.currentTarget.src = '/brand_logo.png';
+}}
+alt="NAZAKAT Nawabi Perfumes Emblem"
+className="h-12 w-auto sm:h-16 lg:h-20 object-contain rounded-xl border-2 border-[#D4AF37] shadow-[0_0_25px_rgba(212,175,55,0.7)] bg-white p-1 transform group-hover:scale-105 transition-all duration-300 ring-2 ring-[#F5D77F]"
+style={{ filter: "drop-shadow(0px 0px 8px rgba(212, 175, 55, 0.8))" }}
+referrerPolicy="no-referrer"
+/>
                 />
                 <div className="absolute -inset-1 rounded-xl border border-[#B8860B]/70 pointer-events-none animate-pulse" />
               </div>
