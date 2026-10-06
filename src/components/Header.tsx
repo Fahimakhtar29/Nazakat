@@ -349,7 +349,7 @@ export const Header: React.FC<HeaderProps> = ({
 e.currentTarget.src = '/brand_logo.png';
 }}
 alt="NAZAKAT Nawabi Perfumes Emblem"
-className="h-full w-full object-cover object-center rounded-full transform scale-150 transition-all duration-300"
+className="h-full w-full object-cover object-center rounded-full transform scale-[2.2] transition-all duration-300"
 style={{
 filter: "drop-shadow(0px 0px 8px rgba(212, 175, 55, 0.8))"
 }}
