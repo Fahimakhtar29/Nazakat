@@ -344,17 +344,15 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Center Royal Indian Stretched Brand Logo */}
           <div className="text-center cursor-pointer select-none group py-0.5 px-2" onClick={() => onSelectCategory('All')}>
-            <div className="flex flex-row items-center justify-center gap-2 sm:gap-3.5">
-              <div className="relative flex-shrink-0">
-                <img
-                  src={BRAND_LOGO_URL}
-                  onError={(e) => {
-                    {
+
+{
 e.currentTarget.src = '/brand_logo.png';
 }}
 alt="NAZAKAT Nawabi Perfumes Emblem"
-className="h-12 w-auto sm:h-16 lg:h-20 object-contain rounded-xl border-2 border-[#D4AF37] shadow-[0_0_25px_rgba(212,175,55,0.7)] bg-white p-1 transform group-hover:scale-105 transition-all duration-300 ring-2 ring-[#F5D77F]"
-style={{ filter: "drop-shadow(0px 0px 8px rgba(212, 175, 55, 0.8))" }}
+className="h-full w-full object-cover object-center rounded-full transform scale-150 transition-all duration-300"
+style={{
+filter: "drop-shadow(0px 0px 8px rgba(212, 175, 55, 0.8))"
+}}
 referrerPolicy="no-referrer"
 />
                 />
